@@ -1,0 +1,286 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Playfair Display', serif;
+	font-color:#626262;
+}
+
+/*header start*/
+header{}
+
+.wrapper{
+	width: 90%;
+	/*border:1px solid black;*/
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	width: 10%;
+	float: left;
+	/*border: 1px solid black;*/
+	padding: 50px 0;
+
+}
+/*.logo p{*/
+	/*font-family: 'Inconsolata', monospace;*/
+	/*font-size: 30px;*/
+	/*text-transform: uppercase;*/
+/*}*/
+
+.logo img{
+	width: 100%;
+}
+
+
+.menu{
+	width: 70%;
+	float: right;
+	margin-top: 30px;
+}
+
+.menu ul{
+	float: right;
+}
+
+.menu ul li{
+	list-style: none; 
+	float: left;
+
+}
+.menu ul li a{
+	text-decoration: none;
+	padding: 20px 55px;
+	display: block;
+	text-transform: none;
+	text-transform: uppercase;
+	color: #626262;
+	font-size: 16px;
+	transition: .5s;
+
+}
+.menu ul li a:hover {
+	color: black;
+}
+
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+
+/*header end*/
+/*banner start*/
+.banner{
+	padding-top: 20px;
+}
+.banner img{
+	width: 100%;
+}
+/*banner end*/
+/*perfect start*/
+.perfect{}
+.wrapper2{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+	/*border: 1px solid red;*/
+
+}
+.perfect_content{
+	margin-top: 80px;
+	margin-bottom: 50px;
+}
+.common_text{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	color: #b4ad9e;
+	font-weight:300;
+	text-transform: uppercase;
+	margin-top: 29px;
+}
+.perfect_content h1{
+	font-weight: 400;
+	font-size: 30px;
+	color: #626262;
+	margin-top: 29px;
+	margin-bottom: 20px;
+}
+.perfect_content .text{
+	font-size: 16px;
+	color: #626262;
+	line-height: 1.5;
+	margin-bottom: 40px;
+}
+.perfect_content .pera {
+	color: #484646;
+	line-height: 1.7;
+    font-size: 14px;
+
+}
+/*perfect end*/
+/*blog start*/
+.blog{}
+.single-blog{
+	padding: 50px 0;
+	width: 47%;
+	/*border: 1px solid black;*/
+	overflow: hidden;
+	float: left;
+}
+.single-blog:nth-child(even) {
+	margin-left: 40px;
+}
+.single-blog img{
+	width: 100%;
+	margin-bottom: 28px;
+}
+.single-blog h1{
+	/*font-size: 30px;*/
+	/*font-weight: 400;*/
+	font-weight: 400;
+	font-size: 30px;
+	color: #626262;
+	margin-top: 28px;
+	margin-bottom: 30px;
+}
+.single-blog p{
+	color: #484646;
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+
+/*blog end*/
+/*news start*/
+.news{
+	padding: 60px 0;
+	background-color: #f0f0f0;
+}
+.wrapper3{
+	width: 60%;
+	/*border: 1px solid black;*/
+	margin: 0 auto;
+	overflow: hidden;
+}
+.news_content{
+	margin: 0 auto;
+	text-align: center;
+}
+.news_content h1{
+	font-size: 30px;
+	margin-bottom: 30px;
+	color: #333333;
+}
+.news_content form{
+	position: relative;
+	width: 356px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+
+}
+.news_content form input{
+	width: 300px;
+	border: none;
+	border-bottom:  1px solid black;
+	background: transparent;
+	padding: 10px 50px 5px 5px;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.news_content form button{
+	position: absolute;
+	top: 10px;
+	right: 0;
+	border: none;
+	background: transparent;
+}
+
+/*news end*/
+
+/*blog2 start*/
+.blog2{
+	
+}
+.blog2_content{
+	width: 45%;
+	float: left;
+	overflow: hidden;
+	padding: 80px 0 50px 0;
+
+
+}
+.blog2_content:nth-child(even) {
+	padding-left:  60px;
+
+}
+.blog2_content img{
+	width: 100%;
+}
+.blog2_content h1{
+	font-weight: 400;
+	font-size: 30px;
+	color: #626262;
+	margin-top: 28px;
+	margin-bottom: 30px;
+}
+.blog2_content p{
+	color: #484646;
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+/*blog2 end*/
+/*btn start*/
+.btn{
+	padding: 100px 0;
+	text-align: center; }
+
+.button_wrapper{}
+.btn button{
+	/*border: none;*/
+	background: transparent;
+	border: 1px solid #626262;
+	padding: 20px 40px;
+	transition: .5s;
+	font-size: 20px;
+	color: #626262;
+}
+.btn button:hover {
+	background-color: #626262;
+	color: white;
+	border: 1px solid white;
+}
+/*btn end*/
+/*footer start*/
+	footer{
+		background-color: #f0f0f0;
+		padding: 50px 0;
+	}
+	.privacy{
+		float: left;
+	}
+	
+	.privacy ul{}
+	.privacy ul li, .icon ul li{
+		float: left;
+		list-style: none;
+	}
+	.privacy ul li a, .icon ul li a {
+		text-decoration: none;
+		display: block;
+		padding: 0 10px;
+		color: #626262;
+		transition: .5s;
+	}
+	.privacy ul li a:hover, .icon ul li a:hover {
+		color: #000000;
+	}
+
+	.icon{
+		float: right;
+	}
+
+/*footer end*/
+
+
